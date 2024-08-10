@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day of the Week</title>
+    <script>
+        function checkDay() {
+            let day = prompt("Enter a day of the week:").toLowerCase();
+            switch(day) {
+                case 'monday':
+                    console.log("Start of the work week!");
+                    break;
+                case 'tuesday':
+                    console.log("Second day of the work week!");
+                    break;
+                case 'wednesday':
+                    console.log("Midweek!");
+                    break;
+                case 'thursday':
+                    console.log("Almost the weekend!");
+                    break;
+                case 'friday':
+                    console.log("Last day of the work week!");
+                    break;
+                case 'saturday':
+                    console.log("Weekend!");
+                    break;
+                case 'sunday':
+                    console.log("Weekend!");
+                    break;
+                default:
+                    console.log("Invalid day!");
+            }
+        }
+    </script>
+</head>
+<body>
+    <button onclick="checkDay()">Check Day</button>
+</body>
+</html>
